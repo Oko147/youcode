@@ -1,0 +1,40 @@
+.navigation {
+  width: 100%;
+  background-color: #147147;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.navigation__list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation__list {
+  list-style: none;
+  padding-inline-start: 0%;
+  margin: 0px;
+}
+
+.navigation__listItem {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.navigation__link {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.navigation__link:visited {
+  color: #000;
+}
+
+.navigation__link:hover {
+  color: #ede;
+}

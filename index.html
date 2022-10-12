@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moduł4-BEM</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/image.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&family=Cinzel:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="javascript/script.js"></script>
+  </head>
+
+  <body class="body">
+    <header class="header" id="page-top">
+      NAUKA<span class="header--color">MUZYKI</span>
+    </header>
+
+    <nav class="navigation" id="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#page-top"
+            ><i class="fa fa-home fa-2x"></i
+          ></a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#section-experience"
+            >Doświadczenie</a
+          >
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#section-schools">Wykształcenie</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#section-table">Ulubione</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#section-contact">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <section class="section__image">
+        <img
+          class="section__image--image"
+          src="https://i.postimg.cc/h4VQp60s/piano.jpg"
+        />
+      </section>
+      <div class="main__headerButton">
+        <button
+          class="main__headerButton--button"
+          id="main__headerButton--button"
+        >
+          Włącz podświetlenie logo
+        </button>
+      </div>
+
+      <section class="section__experience" id="section-experience">
+        <hr />
+        <h1 class="section__header">Doświadczenie</h1>
+
+        <p class="section__text">
+          Przygodę z graniem na instrumentach rozpocząłem w wieku 4 lat, kiedy
+          dostałem od rodziców małe, zabawkowe pianinko. Po pewnym czasie
+          dostrzegli, że potrafię ze słuchu zagrać melodyjki, które leciały w
+          radiu.
+        </p>
+        <p class="section__text">
+          <i>Fortepian</i> to nie jedyny instrument, z którym miałem do
+          czynienia. Gram na <i>organach kościelnych</i> od 17 lat oraz na
+          <i>gitarze basowej</i> od 2 lat. W przyszłości planuję nauczyć się
+          także grać na <i>saksofonie</i>.
+        </p>
+        <hr />
+      </section>
+
+      <section class="section__schools" id="section-schools">
+        <hr />
+        <h1 class="section__header">Wykształcenie</h1>
+
+        <p class="section__text">
+          Moją pierwszą szkołą było <b>ognisko muzyczne <em>"Tosca"</em> </b>w
+          Policach, gdzie rozpocząłem naukę w 1998 roku. Uczyłem się w niej
+          kształcenia słuchu oraz grać na pianinie. Na pierwszej lekcji mojego
+          ostatniego roku nauczania moja nauczycielka zaproponowała mi, abym
+          podszedł do egzaminu do
+          <b>Zespołu Szkół Muzycznych IIst. w Szczecinie</b> z czego oczywiście
+          skorzystałem. Egzamin zdałem, jednak nie przyjęli mnie na fortepian, a
+          na <i>organy</i>.
+        </p>
+        <p class="section__text">
+          Ukończyłem <b>Zespół Szkół Muzycznych IIst. w Szczecinie</b> w klasie
+          organów jak i fortepianu (przecież nie mogłem zostawić swojego
+          kochanego instrumentu) w międzyczasie samokształcąc się w dziedzinie
+          kompozycji i aranżacji.
+        </p>
+        <hr />
+      </section>
+
+      <section class="section__table" id="section-table">
+        <table class="table">
+          <caption class="table__caption">
+            Ulubione dzieła muzyki klasycznej
+          </caption>
+
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="col">Utwór</th>
+            <th class="table__cell table__header" scope="col">Kompozytor</th>
+            <th class="table__cell table__header" scope="col">Umiem grać?</th>
+            <th class="table__cell table__header" scope="col">
+              Posłuchaj <i class="fa fa-headphones"></i>
+            </th>
+          </tr>
+
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="row">
+              Nokturn c-moll
+            </th>
+            <td class="table__cell">Chopin</td>
+            <td class="table__cell table__checkMark">🗸</td>
+            <td class="table__cell">
+              <a
+                class="table__link"
+                href="https://www.youtube.com/watch?v=-7mntyrW3HU"
+                target="_blank"
+                title="Nokturn c-moll op.48 (wyk. Artur Rubinstein)"
+                ><i class="fa fa-youtube-play fa-2x"></i
+              ></a>
+            </td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="row">
+              Rapsodia g-moll
+            </th>
+            <td class="table__cell" rowspan="2">Brahms</td>
+            <td class="table__cell table__checkMark">🗸</td>
+            <td class="table__cell">
+              <a
+                class="table__link"
+                href="https://www.youtube.com/watch?v=LId7GyalXD4"
+                target="_blank"
+                title="Rapsodia g-moll (wyk. Martha Argerich)"
+                ><i class="fa fa-youtube-play fa-2x"></i
+              ></a>
+            </td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="row">
+              Taniec węgierski nr 6
+            </th>
+            <td class="table__cell"></td>
+            <td class="table__cell">
+              <a
+                class="table__link"
+                href="https://www.youtube.com/watch?v=p2naBrJIRfs"
+                target="_blank"
+                rel="noreferrer noopener"
+                title="Taniec węgierski nr 6 (wyk. Evgeny Kissin)"
+                ><i class="fa fa-youtube-play fa-2x"></i
+              ></a>
+            </td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="row">Toccata</th>
+            <td class="table__cell">Boellmann</td>
+            <td class="table__cell table__checkMark">🗸</td>
+            <td class="table__cell">
+              <a
+                class="table__link"
+                href="https://www.youtube.com/watch?v=G0Fj3UD8gBI"
+                target="_blank"
+                rel="noreferrer noopener"
+                title="Suita gotycka - Toccata (wyk. Olivier Latry)"
+                ><i class="fa fa-youtube-play fa-2x"></i
+              ></a>
+            </td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="row">
+              Symfonia g-moll
+            </th>
+            <td class="table__cell">Widor</td>
+            <td class="table__cell table__checkMark">🗸</td>
+            <td class="table__cell">
+              <a
+                class="table__link"
+                href="https://www.youtube.com/watch?v=1oR3P3IfGqo"
+                target="_blank"
+                rel="noreferrer noopener"
+                title="Symfonia g-moll op.42 - Allegro (wyk. Daniel Roth)"
+                ><i class="fa fa-youtube-play fa-2x"></i
+              ></a>
+            </td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="row">Polka</th>
+            <td class="table__cell" rowspan="2">Rachmaninov</td>
+            <td class="table__cell table__checkMark">🗸</td>
+            <td class="table__cell">
+              <a
+                class="table__link"
+                href="https://www.youtube.com/watch?v=YmSDDslA__M"
+                target="_blank"
+                rel="noreferrer noopener"
+                title="Polka - (wyk. Vyacheslav Gryaznov)"
+                ><i class="fa fa-youtube-play fa-2x"></i
+              ></a>
+            </td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="row">
+              Moment muzyczny
+            </th>
+            <td class="table__cell table__checkMark"></td>
+            <td class="table__cell">
+              <a
+                class="table__link"
+                href="https://www.youtube.com/watch?v=Zg-jkV2qB7o"
+                target="_blank"
+                rel="noreferrer noopener"
+                title="Moment muzyczny op. 16 nr 4 (wyk. Nikolaï Lugansky)"
+                ><i class="fa fa-youtube-play fa-2x"></i
+              ></a>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <footer class="footer">
+        <h1 class="section__header" id="section-contact">Skontaktuj się</h1>
+        <p class="footer__contact footer__contactPhone">+48 420-420-420</p>
+        <p class="footer__contact footer__contactMail">mail@mail.com</p>
+        <div class="footer__copyright">© 2022 NAUKAMUZYKI</div>
+      </footer>
+    </main>
+  </body>
+</html>

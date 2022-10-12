@@ -1,0 +1,43 @@
+.table__caption {
+  color: #eee;
+  margin: 30px 0 10px 0;
+  font-size: 24px;
+  font-weight: 400;
+  text-shadow: 0px 0px 20px rgb(14, 173, 102);
+}
+
+.table {
+  color: #111;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eee;
+}
+
+.table__cell {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table__header {
+  background-color: #147147;
+  color: #fff;
+  font-weight: normal;
+}
+
+.table__checkMark {
+  font-size: 25px;
+}
+
+/* Font awesome */
+
+.table__link {
+  color: #c4302c;
+  opacity: 0.6;
+}
+
+.table__link:hover {
+  opacity: 1;
+}
